@@ -3,27 +3,13 @@
     "development"
   ],
   "hints": {
-    "axe/name-role-value": [
+    "compat-api/css": [
       "default",
       {
-        "link-name": "off",
-        "button-name": "off"
+        "ignore": [
+          "backdrop-filter"
+        ]
       }
-    ],
-    "no-inline-styles": "off",
-    "axe/text-alternatives": [
-      "default",
-      {
-        "image-alt": "off"
-      }
-    ],
-    "axe/aria": [
-      "default",
-      {
-        "aria-allowed-attr": "off",
-        "aria-valid-attr-value": "off"
-      }
-    ],
-    "disown-opener": "off"
+    ]
   }
 }
